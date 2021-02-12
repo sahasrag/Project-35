@@ -61,7 +61,7 @@ foodS=data.val();
 foodObj.updateFoodStock(foodS);
 }
 
-fuction feedDog(){
+function feedDog(){
   dog.addImage(happyDog);
 
   foodObj.updateFoodStock(goodObj.getFoodStock()-1);
